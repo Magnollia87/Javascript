@@ -1,0 +1,16 @@
+<html>
+<head> </head>
+
+<body>
+<script type="text/javascript">
+function day()
+{
+document.write ("Today is Friday");
+}
+</script>
+
+<form>
+<input type="button" onclick="day()" value="What day is today?">
+</form>
+</body>
+</html>
