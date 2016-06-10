@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+ 
+<script>
+var x = "#";
+
+while (x.length <=15) {
+	document.write (x)
+	document.write ("<br>")
+	x=x+"#"
+}
+</script>
+</body>
+</html>
