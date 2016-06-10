@@ -1,0 +1,22 @@
+<body>
+<script>
+
+var liczba1 =prompt("Wpisz pierwszą liczbę od 0 do 10","Wpisz tutaj swoją pierwszą liczbę");
+
+if (liczba1 > 5)
+{ alert("liczba1 jest większa od 5")
+}
+
+var liczba2 =prompt("Wpisz druga liczbę od 0 do 10","Wpisz tutaj swoją drugą liczbę");
+
+if (liczba2 < 5)
+{ alert("liczba2 jest mniejsza od 5")
+}
+
+document.write ("suma :")
+var suma = Number(liczba1) + Number(liczba2);
+document.write ("<br>")
+document.write (suma)
+
+</script>
+</body>
