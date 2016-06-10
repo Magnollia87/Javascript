@@ -1,0 +1,14 @@
+<script>
+
+for (var x = 1; x <= 100; x ++)
+
+ { 
+		if (x%2 == 0) { document.write ("Atos");
+                          document.write ("<br>")
+                          document.write (x)
+                          document.write ("<br>")
+
+         } 
+
+}
+</script>
