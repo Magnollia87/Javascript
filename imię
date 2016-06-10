@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+ 
+<script>
+username=prompt("Please enter your name","Enter your name here");
+document.write ("Masz na imie  :  ")
+document.write (username)
+
+</script>
+</body>
+</html>
