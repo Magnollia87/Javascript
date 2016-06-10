@@ -1,0 +1,16 @@
+<html>
+<head> </head>
+
+<body>
+<script type="text/javascript">
+function dzien()
+{
+document.write ("czwartek");
+}
+</script>
+
+<form>
+<input type="button" onclick="dzien()" value="jaki dzis dzien?">
+</form>
+</body>
+</html>
