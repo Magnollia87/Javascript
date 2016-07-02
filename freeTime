@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+</HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+var freeTime = prompt("What did you do today ?");
+
+if  (freeTime == null)
+{
+document.write("Your answer isn't correct!");
+ }
+else
+{
+
+document.write(freeTime);
+
+var letter = prompt ("Please put any letter from A to Z") 
+
+var total = 0;
+var freeTime = freeTime;
+for(indx in freeTime)
+{
+
+ if (freeTime[indx] == letter){
+total = total + 1;
+} 
+}
+}
+
+if (total == 0) {
+document.write (" your letter was not used");
+}
+else{
+document.write (" - your letter was used " + total + " times");
+}
+
+</SCRIPT>
+<BODY>
+</BODY>
+</HTML>
