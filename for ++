@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+</HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+
+var yourName =  prompt("what is your name?");
+
+for (i=0; i < yourName.length; i = i + 2 )
+{
+document.write(yourName[i]);
+}
+
+</SCRIPT>
+<BODY>
+</BODY>
+</HTML>
