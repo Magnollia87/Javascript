@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script>
+var alf = prompt("choose letter from A to Z");
+var sum = 0
+var tablica = new Array ("a","e","i","o","u","a","e","i","o","u","a","z","t","z");
+
+for (i = 0; i < tablica.length; i ++)
+{
+
+if (tablica[i] == alf)
+{ 
+sum = sum + 1
+}
+}
+document.write ("wyswietlilo się razy:");
+document.write ("<br>");
+document.write (sum);
+
+</script>
+</body>
+</html>
