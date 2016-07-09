@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script>
+var alf = prompt("choose letter from A to Z");
+var sum =0;
+
+var tablica = new Array ("a","e","i","o","u");
+
+for(i = 0; i < tablica.length; i ++)  
+{
+
+if (alf == tablica[i])
+{ 
+
+sum=1
+break;
+}
+}
+
+if(sum==0)
+{document.write ("podałeś spółgłoskę")}
+else
+{document.write ("podałeś samogłoskę")}
+ 
+</script>
+</body>
+</html>
