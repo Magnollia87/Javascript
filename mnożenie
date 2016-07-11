@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+wynik = 1
+for (i = 1; i < 3; i ++)
+{ 
+
+wynik = wynik * i;
+
+document.write(wynik);
+ 
+}
+
+</script>
+
+</body>
+</html>
