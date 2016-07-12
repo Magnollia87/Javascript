@@ -1,0 +1,25 @@
+<script>
+var tablica = new Array(7,3,-10,9,5,10,3,2,5,426,17,5,7,6);
+var Tablica2 = new Array ();
+
+for (i = 0; i < tablica.length ; i ++)
+{
+document.write(tablica[i]);
+document.write("<br>");
+
+if (tablica[i] > 5)
+
+{
+Tablica2.push(tablica[i]);
+
+}}
+
+for (i = 0; i < Tablica2.length ; i ++)
+{
+document.write("<br>");
+document.write(Tablica2[i]);
+}
+
+</script>
+</body>
+</html>
