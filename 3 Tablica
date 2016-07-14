@@ -1,0 +1,51 @@
+<script>
+var tablica1 = new Array()
+var tablica2 = new Array()
+var tablica3 = new Array()
+
+for (i = 0; i < 101; i ++)
+
+if (i % 2 == 0)
+{
+document.write(i);
+
+document.write ("parzyste")
+document.write ("<br>")
+
+tablica1.push(i)
+
+ }
+
+else 
+{ 
+document.write(i);
+document.write ("nieparzyste")
+document.write ("<br>") 
+
+tablica2.push(i); 
+}
+for (i = 0; i < tablica1.length; i ++)
+{
+document.write(tablica1[i]);
+document.write("<br>")
+}
+
+document.write ("<br>")
+
+for (i = 0; i < tablica2.length; i ++)
+{
+document.write(tablica2[i]);
+document.write("<br>") 
+}
+
+for (i = 0 ; i < 50; i ++ )
+
+{ 
+
+tablica3.push(9) 
+
+}
+
+document.write(tablica3)
+
+</script>
