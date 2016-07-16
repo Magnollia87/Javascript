@@ -1,0 +1,16 @@
+<script>
+var Tablica1 = new Array(5,1,7,3,20,9,0,3,2,1,6,9,10,7,3,1)
+var max = 0
+
+for (i = 0; i < Tablica1.length; i ++)
+
+{
+if (Tablica1[i] > max)
+{
+max=Tablica1[i]
+} 
+}
+
+document.write(max)
+
+</script>
