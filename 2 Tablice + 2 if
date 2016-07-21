@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+var tablica = []
+var tablica1 = []
+var tablica2 = []
+var tablica3 = []
+
+
+while(tablica.length < 20){
+  var randomnumber=Math.ceil(Math.random()*100)
+  var found=false;
+  for(var i=0;i<tablica.length;i++){
+ if(tablica[i]==randomnumber){found=true;break}
+  }
+  if(!found)tablica[tablica.length]=randomnumber;
+}
+document.write(tablica)
+
+document.write("<br>")
+document.write("<br>")
+
+
+for (i = 0; i < tablica.length; i ++)
+{ if (tablica[i] < 15)
+
+{ 
+tablica2.push(tablica[i]);
+}
+}
+
+
+for (i = 0; i < tablica2.length; i ++)
+
+{
+document.write(tablica2[i])
+document.write("<br>")
+}
+
+
+for (i = 0; i < tablica.length; i ++)
+{if (tablica[i] > 40)
+{ 
+tablica3.push(tablica[i])
+}}
+document.write("<br>")
+
+
+
+for (i = 0; i < tablica3.length; i ++)
+
+{ document.write(tablica3[i])
+document.write("<br>")
+}
+
+
+</script>
+
+</body>
+</html>
