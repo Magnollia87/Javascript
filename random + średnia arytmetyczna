@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var tablica = []
+
+while(tablica.length < 20){
+  var randomnumber=Math.ceil(Math.random()*100)
+  var found=false;
+  for(var i=0;i<tablica.length;i++){
+ if(tablica[i]==randomnumber){found=true;break}
+  }
+  if(!found)tablica[tablica.length]=randomnumber;
+}
+document.write(tablica);
+var suma = 0
+for (i = 0; i < tablica.length; i ++)
+{
+suma = suma + tablica[i]  
+}
+document.write("<br>")
+document.write(suma)
+
+var a = (suma / tablica.length);
+document.write("<br>")
+document.write(a) 
+
+</script>
+</body>
+</html>
