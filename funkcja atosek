@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function atosek(a,b) 
+{ 
+
+for (i = a; i <b; i ++)
+document.write(i)
+}
+
+atosek(1,1000)
+document.write("<br>")
+atosek(7,14)
+
+</script>
+</body>
+</html>
