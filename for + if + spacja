@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var imiePsa = prompt("Please enter the name of your dog");
+var imiePsa2 = []
+
+for (i = 0; i < imiePsa.length ; i ++)
+{
+document.write(imiePsa[i])
+
+}
+document.write("<br>")
+document.write("<br>")
+
+
+var suma = 0 
+
+for (i = 0; i < imiePsa.length; i ++)
+{
+if (imiePsa[i] == " ")
+{
+document.write("tu była spacja") 
+document.write("<br>")
+}else 
+{
+suma = suma + 1 
+imiePsa2.push(imiePsa[i])
+}
+
+}
+
+document.write("<br>")
+document.write(suma)
+
+document.write("<br>")
+
+
+for (i = 0; i < imiePsa2.length; i ++)
+{
+document.write(imiePsa2[i])
+}
+
+</script>
+</body>
+</html>
