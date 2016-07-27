@@ -1,0 +1,21 @@
+<script>
+
+function witaj(imie1,imie2,imie3)
+{
+    document.write("witaj" + " " + imie1 + imie2 + imie3);
+}
+ 
+witaj("Kasia, ", "Arek i", " Atosek");
+
+for (i = 0; i < 5; i ++)
+
+{
+document.write("<br>")
+witaj("Kasia, ","Arek, ","Adam")
+document.write("<br>")
+}
+
+
+document.write("<br>")
+witaj("x, ","y, ","z")
+</script>
